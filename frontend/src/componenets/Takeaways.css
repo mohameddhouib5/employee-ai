@@ -1,0 +1,95 @@
+/* Takeaways.css */
+
+.takeaways-container {
+  width:80%;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+}
+
+.main-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.sections > div {
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(44, 62, 80, 0.1);
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.sections > div:hover {
+  box-shadow: 0 6px 18px rgba(44, 62, 80, 0.15);
+}
+
+.section-title {
+  cursor: pointer;
+  padding: 1.3rem 1.8rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #4a90e2 0%, #357ab8 100%);
+  color: white;
+  user-select: none;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  transition: background 0.3s ease;
+}
+
+.section-title:hover,
+.section-title.active {
+  background: linear-gradient(90deg, #357ab8 0%, #4a90e2 100%);
+}
+
+.section-content {
+  padding: 1.5rem 2rem;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #34495e;
+  border-top: 1px solid #e1e8ed;
+  background-color: #fafbfc;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* Styling for nested elements inside content */
+.section-content p {
+  margin-bottom: 1rem;
+}
+
+.section-content ul,
+.section-content ol {
+  margin: 0 0 1rem 1.5rem;
+}
+
+.section-content strong {
+  color: #2c3e50;
+}
+
+.section-content code {
+  background-color: #eef4fc;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.95rem;
+  color: #2a74da;
+}
+
+@media (max-width: 600px) {
+  .takeaways-container {
+    padding: 0 1rem;
+  }
+  .section-title {
+    font-size: 1.1rem;
+    padding: 1rem 1.2rem;
+  }
+  .section-content {
+    padding: 1rem 1.2rem;
+    font-size: 0.95rem;
+  }
+}
