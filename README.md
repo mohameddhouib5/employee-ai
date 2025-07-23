@@ -11,7 +11,7 @@ Built with **React** for the frontend and **Node.js** for the backend, AI Employ
 ## Demo
 
 you can use this vercel deployement link to have a look
-employee-ai-frontend.vercel.app
+![link](employee-ai-frontend.vercel.app)
 
 ---
 
